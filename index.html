@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090b16">
+<meta name="description" content="Неон Казино — игровой автомат в неоновом свете. Бесплатная игра на виртуальные кредиты.">
+<title>NEON — Неон Казино</title>
+<style>
+:root{color-scheme:dark;--bg:#090b16;--panel:#121525;--muted:#999db5;--pink:#ff4cce;--lime:#d7ff7f;--line:#ffffff14;font-family:Arial,Helvetica,sans-serif;color:#f7f6ff;background:var(--bg)}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 75% 15%,#61235c28,transparent 45%),var(--bg)}a{color:inherit;text-decoration:none}button,select{font:inherit}button,a,select{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{opacity:.5;cursor:wait}a:focus-visible,button:focus-visible,select:focus-visible{outline:2px solid var(--lime);outline-offset:5px}header,main,footer{width:min(1220px,90%);margin:auto}header{height:94px;display:flex;align-items:center;gap:54px;border-bottom:1px solid var(--line)}.logo{font-size:31px;font-weight:900;letter-spacing:5px}.logo span{color:var(--pink);text-shadow:0 0 22px #ff4cce80}nav{display:flex;gap:28px;color:var(--muted);font-size:14px}nav a:hover{color:white}.demo-badge{margin-left:auto;border:1px solid #d7ff7f40;border-radius:30px;padding:9px 14px;font-size:11px;letter-spacing:1.5px;color:var(--lime)}.hero{padding:65px 0 56px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.eyebrow{color:var(--lime);font-size:11px;letter-spacing:3px;font-weight:bold;display:flex;align-items:center;gap:10px}.dot{width:6px;height:6px;background:var(--lime);border-radius:50%;box-shadow:0 0 12px var(--lime)}h1{font-size:clamp(48px,6.8vw,90px);line-height:1;letter-spacing:-4px;margin:25px 0}h1 em{font-style:normal;color:var(--pink);text-shadow:0 0 38px #ff4cce38}.lead{color:var(--muted);line-height:1.8;max-width:355px;font-size:15px}.cta{display:inline-flex;gap:35px;align-items:center;margin-top:20px;background:var(--lime);color:#141b09;padding:18px 25px;border-radius:10px;font-size:14px;font-weight:bold;box-shadow:0 6px 35px #d7ff7f12}.hero-art{min-height:350px;display:grid;place-items:center;position:relative;overflow:hidden}.orbit{position:absolute;width:320px;height:320px;border:1px solid #ff4cce35;border-radius:50%;box-shadow:0 0 70px #ff4cce0c,inset 0 0 70px #ff4cce0c}.orbit:after{content:'';position:absolute;inset:32px;border:1px dashed #c498ff35;border-radius:50%}.seven{font-size:245px;font-style:italic;font-weight:900;line-height:1;color:#ff7be3;text-shadow:3px 3px 0 #ac278c,8px 8px 0 #56275e,0 0 55px #ff4cce70;transform:rotate(-12deg);position:relative}.chip{position:absolute;border:5px dashed #d7ff7f;border-radius:50%;width:67px;height:67px;display:grid;place-items:center;background:#273629;color:var(--lime);font-size:22px;font-weight:bold;box-shadow:0 0 25px #d7ff7f20;transform:rotate(20deg);right:10%;bottom:20%}.spark{position:absolute;top:15%;left:16%;font-size:38px;color:var(--lime)}.section-head{display:flex;justify-content:space-between;align-items:center;margin:8px 0 24px}h2{font-size:25px;letter-spacing:-.7px;margin:0}.section-head span{color:var(--muted);font-size:12px}.game{scroll-margin-top:25px;background:linear-gradient(125deg,#1d1833,#121525 65%);border:1px solid #c498ff30;border-radius:20px;padding:30px;display:grid;grid-template-columns:1fr 1.25fr;gap:45px}.tag{color:var(--pink);font-size:10px;letter-spacing:2px;font-weight:bold}.game h3{font-size:34px;margin:14px 0}.game p{color:var(--muted);font-size:14px;line-height:1.7;max-width:360px}.balance{margin-top:26px;display:flex;align-items:center;gap:18px}.balance small{display:block;color:var(--muted);font-size:10px;letter-spacing:1px;margin-bottom:7px}.balance strong{font-size:26px;font-variant-numeric:tabular-nums}.reset{background:none;color:var(--muted);border:1px solid #ffffff20;border-radius:8px;padding:10px;font-size:12px}.machine{background:#090b16a0;padding:22px;border-radius:14px;border:1px solid var(--line)}.reels{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.reel{height:110px;border:1px solid #ff4cce40;border-radius:10px;display:grid;place-items:center;background:linear-gradient(#241931,#121020);font-size:57px;font-weight:900;color:var(--pink);text-shadow:0 0 20px #ff4cce60}.controls{display:flex;gap:12px;margin-top:18px;align-items:end}.bet-label{color:var(--muted);font-size:10px;letter-spacing:1px}.bet-label select{display:block;margin-top:7px;width:100px;padding:13px 10px;border-radius:8px;border:1px solid #ffffff25;background:#191b2c;color:white;font-size:14px}.spin{flex:1;border:0;border-radius:8px;background:var(--pink);color:#160a16;font-weight:bold;padding:15px;font-size:14px}.spin:hover{background:#ff7adb}.status{font-size:12px!important;min-height:40px;margin:14px 0 0!important;text-align:center;max-width:none!important}.rules{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:32px 0 50px;scroll-margin-top:24px}.rule{border-top:1px solid var(--line);padding-top:22px}.rule b{color:var(--lime);font-size:11px;letter-spacing:2px}.rule h3{font-size:16px;margin:14px 0 8px}.rule p{color:var(--muted);font-size:13px;line-height:1.7;margin:0}footer{border-top:1px solid var(--line);padding:25px 0 30px;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;line-height:1.7}.spinning .reel{animation:flicker .14s infinite alternate}.win{border-color:var(--lime);box-shadow:0 0 25px #d7ff7f20}@keyframes flicker{to{opacity:.4;transform:translateY(2px)}}@media(max-width:760px){header{height:76px;gap:20px}nav{display:none}.logo{font-size:24px}.demo-badge{font-size:9px;padding:8px 10px}.hero{grid-template-columns:1fr;gap:0;padding:45px 0 30px}h1{letter-spacing:-2px}.hero-art{min-height:280px}.seven{font-size:210px}.orbit{width:260px;height:260px}.game{grid-template-columns:1fr;gap:24px;padding:20px}.balance{margin-top:18px}.rules{grid-template-columns:1fr;gap:24px}.section-head{gap:15px}.section-head span{max-width:110px;text-align:right;line-height:1.5}.reel{height:90px;font-size:44px}.machine{padding:15px}footer{flex-direction:column;gap:8px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><a class="logo" href="./index.html" aria-label="Неон Казино — главная">NE<span>O</span>N<span>✦</span></a><nav aria-label="Навигация"><a href="#game">Играть</a><a href="#rules">Правила</a></nav><span class="demo-badge">● DEMO CASINO</span></header>
+<main>
+<section class="hero" aria-labelledby="title"><div><div class="eyebrow"><span class="dot"></span>НЕОН КАЗИНО</div><h1 id="title">Твоя ночь.<br>Твой <em>неон.</em></h1><p class="lead">Поймай ритм огней. Испытай удачу в игровом автомате — просто ради игры.</p><a class="cta" href="#game">Играть бесплатно <span aria-hidden="true">↗</span></a></div><div class="hero-art" aria-hidden="true"><div class="orbit"></div><span class="spark">✦</span><span class="seven">7</span><span class="chip">N</span></div></section>
+<div class="section-head"><h2>В центре внимания</h2><span>Виртуальные кредиты · Бесплатно</span></div>
+<section class="game" id="game" aria-labelledby="game-title"><div><span class="tag">NEON ORIGINAL / 001</span><h3 id="game-title">Neon Sevens</h3><p>Три барабана, один поворот. Собери одинаковые символы и зажги свой неон.</p><div class="balance"><div><small>ДЕМО-БАЛАНС</small><strong><span id="balance">1 000</span> <span style="color:var(--lime)">◈</span></strong></div><button class="reset" id="reset" type="button">Начать заново</button></div></div><div class="machine"><div class="reels" id="reels" role="img" aria-label="Барабаны: 7, 7, 7"><div class="reel" aria-hidden="true">7</div><div class="reel" aria-hidden="true">7</div><div class="reel" aria-hidden="true">7</div></div><div class="controls"><label class="bet-label" for="bet">СТАВКА ◈<select id="bet"><option value="10">10</option><option value="25">25</option><option value="50">50</option></select></label><button class="spin" id="spin" type="button">Крутить ↻</button></div><p class="status" id="status" role="status" aria-live="polite">Готов к первому вращению?</p></div></section>
+<section class="rules" id="rules" aria-label="Правила игры"><article class="rule"><b>01 / СТАРТ</b><h3>1 000 кредитов для игры</h3><p>Выбери ставку и нажми «Крутить». Каждое вращение списывает выбранную ставку.</p></article><article class="rule"><b>02 / КОМБИНАЦИИ</b><h3>Лови совпадения</h3><p>Три семёрки — выплата ×20 от ставки. Три других одинаковых символа — ×10. Ровно два одинаковых — ×2. Иначе — 0. Выплата включает ставку.</p></article><article class="rule"><b>03 / БЕЗ ДЕНЕГ</b><h3>Только развлечение</h3><p>Четыре символа выпадают независимо с равными шансами. Кредиты виртуальные: купить или вывести их нельзя. Кнопка «Начать заново» сбрасывает баланс.</p></article></section>
+</main>
+<footer><span>NEON CASINO · Демо-игра</span><span>Баланс действует до перезагрузки страницы. Реальные ставки отсутствуют.</span></footer>
+<script>
+'use strict';
+const symbols = ['7', '◆', '★', '☾'];
+const balanceEl = document.querySelector('#balance');
+const reels = document.querySelector('#reels');
+const cells = [...reels.children];
+const betEl = document.querySelector('#bet');
+const spin = document.querySelector('#spin');
+const reset = document.querySelector('#reset');
+const statusEl = document.querySelector('#status');
+let balance = 1000;
+let busy = false;
+const format = value => value.toLocaleString('ru-RU');
+function renderBalance() { balanceEl.textContent = format(balance); }
+function drawSymbol() {
+  const number = new Uint32Array(1);
+  crypto.getRandomValues(number);
+  return symbols[number[0] % symbols.length];
+}
+spin.addEventListener('click', () => {
+  if (busy) return;
+  const bet = Number(betEl.value);
+  if (balance < bet) {
+    statusEl.textContent = 'Не хватает кредитов. Уменьши ставку или начни заново.';
+    return;
+  }
+  busy = true;
+  balance -= bet;
+  renderBalance();
+  spin.disabled = reset.disabled = betEl.disabled = true;
+  reels.classList.remove('win');
+  reels.classList.add('spinning');
+  statusEl.textContent = 'Барабаны вращаются…';
+  const result = Array.from({ length: 3 }, drawSymbol);
+  const animation = setInterval(() => cells.forEach(cell => { cell.textContent = drawSymbol(); }), 90);
+  setTimeout(() => {
+    clearInterval(animation);
+    reels.classList.remove('spinning');
+    cells.forEach((cell, i) => { cell.textContent = result[i]; });
+    reels.setAttribute('aria-label', 'Барабаны: ' + result.join(', '));
+    const unique = new Set(result).size;
+    const multiplier = unique === 1 ? (result[0] === '7' ? 20 : 10) : unique === 2 ? 2 : 0;
+    const payout = bet * multiplier;
+    balance += payout;
+    renderBalance();
+    statusEl.textContent = payout ? 'Комбинация ×' + multiplier + '! Выплата: ' + format(payout) + ' ◈.' : 'Без совпадений. Выплата: 0 ◈.';
+    if (payout) reels.classList.add('win');
+    if (balance === 0) statusEl.textContent += ' Кредиты закончились — можно начать заново.';
+    busy = false;
+    spin.disabled = reset.disabled = betEl.disabled = false;
+  }, 900);
+});
+reset.addEventListener('click', () => {
+  if (busy) return;
+  balance = 1000;
+  renderBalance();
+  cells.forEach(cell => { cell.textContent = '7'; });
+  reels.setAttribute('aria-label', 'Барабаны: 7, 7, 7');
+  reels.classList.remove('win');
+  statusEl.textContent = 'Новая игра. На балансе 1 000 кредитов.';
+});
+</script>
+</body>
+</html>
