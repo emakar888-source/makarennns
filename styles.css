@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(assets/open-sans.ttf) format('truetype');
+  src: url(assets/montserrat-bold.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -11,7 +11,7 @@
   font-weight: 400;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVc.ttf) format('truetype');
+  src: url(assets/open-sans-italic.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -19,7 +19,7 @@
   font-weight: 400;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf) format('truetype');
+  src: url(assets/open-sans.ttf) format('truetype');
 }
 
 * { box-sizing: border-box; }
